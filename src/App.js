@@ -1,5 +1,4 @@
 import './App.css';
-import "doemd"; 
 import Testimonio from './componentes/testimonio';
 function App() {
   return (
@@ -12,8 +11,8 @@ function App() {
      imagen='luis'
      cargo='ingeniero de software'
      alt='luis'
-     empresa={`${<strong>spotify</strong>}libre`}
-     testimonio='<strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit. Molestias corporis eius quos iure asperiores, voluptate ea magnam facere sed at facilis fugit ullam, et quibusdam illum ' />
+     empresa='spotify'
+     testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias corporis eius quos iure asperiores, voluptate ea magnam facere sed at facilis fugit ullam, et quibusdam illum ' />
       <Testimonio
      nombre='Raul Marquez'
      pais='espana'
