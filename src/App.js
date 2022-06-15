@@ -12,7 +12,7 @@ function App() {
      cargo='ingeniero de software'
      alt='luis'
      empresa='spotify'
-     testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias corporis eius quos iure asperiores, voluptate ea magnam facere sed at facilis fugit ullam, et quibusdam illum ' />
+     testimonio= {[<strong>Lorem ipsum dolor sit amet</strong>, ' consectetur adipisicing elit. Molestias corporis eius quos iure asperiores, voluptate ea magnam facere sed at facilis fugit ullam, et quibusdam illum ' ]} />
       <Testimonio
      nombre='Raul Marquez'
      pais='espana'
@@ -20,7 +20,7 @@ function App() {
      cargo='ingeniero de software'
      empresa='duolingo'
      alt='raul'
-     testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias corporis eius quos iure asperiores, voluptate ea magnam facere sed at facilis fugit ullam, et quibusdam illum reprehenderit? Totam, quam fugit?  ' />
+     testimonio={<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias corporis eius quos iure asperiores, <strong>voluptate ea magnam facere sed at facilis fugit </strong>ullam, et quibusdam illum reprehenderit? Totam, quam fugit?  </p> } />
      
      <Testimonio
      nombre='pedro fernandez'
@@ -29,7 +29,7 @@ function App() {
      cargo='ingeniero de software'
      alt='pedro'
      empresa='nasa'
-     testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias corporis eius quos iure asperiores, voluptate ea magnam facere sed at facilis fugit ullam, et quibusdam illum reprehenderit? Totam, quam fugit? ' />
+     testimonio={<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias corporis eius quos iure asperiores, voluptate ea magnam facere sed at facilis fugit ullam,<strong>et quibusdam illum reprehenderit? Totam, quam fugit?</strong></p>  } />
       </div>
      
     </div>

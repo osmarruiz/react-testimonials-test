@@ -10,7 +10,7 @@ function Testimonio(props){
       <div className="contenedor-texto-testimonio">
         <p className="nombre-testimonio"><strong>{props.nombre}</strong> de <strong>{props.pais}</strong></p>
         <p className="cargo-testimonio">{props.cargo}  {props.empresa}   </p>
-        <p className="texto-testimonio"> "{props.testimonio} "</p>
+        <p className="texto-testimonio"> "{props.testimonio}"</p>
       </div>
     </div>
   );
